@@ -1,5 +1,6 @@
 from pytube import YouTube
 import os
+pip install streamlit
 
 def descargar_video(url, carpeta='descargas'):
     yt = YouTube(url)
